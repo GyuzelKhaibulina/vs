@@ -1,0 +1,30 @@
+.ratingWrap {
+    position: relative;
+    font-size: auto;    
+    text-decoration: none;
+    top: 2px;
+    font-size: 14px !important;
+}
+.ratingWrap a {
+        position: relative;
+        top: -2px;
+        color: #000;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        left: 10px;
+        margin-right: 12px;
+        border-bottom: 1px solid rgb(244, 78, 46);
+    }
+.ratingWrap a:hover {
+    border-bottom: 3px solid rgb(244, 78, 46);
+}
+
+.rating {
+    position: relative;
+    top: -10px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 13px;
+}
+

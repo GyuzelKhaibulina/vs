@@ -1,0 +1,859 @@
+.gallery {
+margin-top: 0px;
+right: 50%; 
+left: 50%;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.breadcrumbs {
+    text-transform: uppercase;
+    margin-top: 36px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.95);
+    font-family: Raleway-Bold;
+    @media (max-width:1024px) { 
+        margin-top: 60px;
+    } 
+    @media (max-width:905px) { 
+        margin-top: 70px;
+    } 
+    @media (max-width:734px) { 
+        margin-top: 160px;
+    } 
+}
+
+.breadcrumbs a { 
+    color: rgba(0, 0, 0, 0.95);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.breadcrumbs a:hover {
+    border-bottom: solid 1px rgb(244, 78, 46);
+}
+
+
+
+span.title {
+    display: block;
+    margin: 10px 0px;
+}
+.title a {
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 26px;
+    line-height: 32px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-family: Alegreyasans-bold;
+}
+
+.title a:hover { 
+    border-bottom: solid 1px rgb(244, 78, 46);
+}
+
+.type { 
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    font-family: Raleway-Bold;
+
+}
+
+.rating_stars {  
+    display: block;
+    margin-top: 10px;
+    color: rgb(211, 28, 3);
+    font-size: 24px;
+}
+
+.rating { 
+    padding-left: 0px;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    font-family: Raleway-Medium;
+}
+.ratingList {
+    position: relative;
+    top: -2px;
+    color:  rgb(102, 102, 102);
+    font-size: 14px;
+}
+.ratingListType {
+    position: relative;
+    top: -3px;
+    color:  rgb(102, 102, 102);
+    font-size: 14px; 
+}
+
+.headerRecipe h1 {
+    font-size: 57px;
+    font-weight: 800;
+    margin-bottom: -5px;
+    padding: 0px;
+    font-family: Alegreyasans-bold;
+}
+
+.headerRecipeEdit p {
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    width: 100%;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-family: Raleway-Medium;
+}
+
+.typeRecipe {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.95);
+    font-family: Raleway-Bold;
+}
+.typeRecipe a {
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-family: Raleway-Bold;
+    color: rgba(0, 0, 0, 0.95);
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.typeRecipe a:hover {
+    border-bottom: solid 1px rgb(244, 78, 46);
+}
+
+.typeRecipe div {
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.recipe_title {
+    position: relative;
+    top: -7px;
+    padding: 0px;
+}
+
+div.wrapRecipe {
+    width: 640px;
+    margin: auto;
+    @media (max-width:846px) { 
+        width: auto;
+
+    } 
+}
+
+.contentRecipe {
+    @media (max-width:846px) { 
+        min-width:100%;
+    } 
+}
+
+.contentRecipe h1 {
+    text-align: left;
+    font-size: 46px;
+    font-weight: 800;
+    margin: 25px 0 10px 0px;
+    padding: 0px;
+    font-family: Alegreyasans-bold;
+    @media (max-width:830px) { 
+        font-size: 36px;
+    } 
+}
+
+.ratingRecipe span {
+    color: rgb(211, 28, 3);
+    font-size: 20px !important;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+
+.ratingRecipe span {
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+    color: #000 !important;
+    text-decoration: none;
+    font-size: 12px !important;
+    padding-bottom: 2px;
+    border-bottom: solid 1px rgb(244, 78, 46);     
+}
+ 
+.ratingRecipe span:hover {
+    border-bottom: solid 3px rgb(244, 78, 46);
+
+}
+
+.ratingBorder {
+    display: inline-block !important;
+    position: relative !important;
+    cursor: auto;
+    top: 6px !important;
+    margin: 0 18px;
+    height: 18px;
+    border-right: 1px solid rgba(0,0,0,.15);
+    border-bottom: 0px !important;
+    @media (max-width:568px) { 
+        padding-left: 25px;
+        height: 0px;
+        border-right: 0px;
+        top: 0px;
+        margin: 0px;
+    }
+}
+
+span.ratingBorderShare {
+    display: inline-block !important;
+    position: relative !important;
+    cursor: auto;
+    top: 6px !important;
+    margin: 0 18px;
+    height: 18px;
+    border-right: 1px solid rgba(0,0,0,.15);
+    border-bottom: 0px !important;
+    @media (max-width:792px) { 
+        height: 0px;
+        border-right: 0px;
+        top: 0px;
+        margin: 0px;
+    }
+}
+
+span.ratingBorderPrint {
+    display: inline-block !important;
+    position: relative !important;
+    cursor: auto;
+    top: 6px !important;
+    margin: 0 18px;
+    height: 18px;
+    border-right: 1px solid rgba(0,0,0,.15);
+    border-bottom: 0px !important;
+
+    @media (max-width:585px) { 
+        height: 0px;
+        border-right: 0px;
+        top: 0px;
+        margin: 0px;
+    }    
+    @media (max-width:568px) { 
+        padding-left: 33px;
+        display: inline-block !important;
+        position: relative !important;
+        cursor: auto;
+        top: 6px !important;
+        margin: 0 18px;
+        height: 18px;
+        border-right: 1px solid rgba(0,0,0,.15);
+        border-bottom: 0px !important;
+    }
+}
+
+.note {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #666666;
+    font-family: Raleway-Medium;
+    @media (max-width:646px) { 
+       font-size: 14px;
+       line-height: 20px;
+   }
+}
+
+.publishDate {
+    padding: 10px 0 0px 0;
+    font-size: 13px;
+    color: rgba(0,0,0,.65);
+
+}
+
+.publishDate a {
+    font-weight: bold;
+    color: #000 !important;
+    text-decoration: none;
+    font-size: 12px !important;
+}
+
+.publishDate a:hover {
+    border-bottom: solid 1px #f2f2f2;
+}
+
+.publishDate a span {
+    margin-left: 4px;
+    font-size: 12px !important;
+    color: #000 !important;
+    border-bottom: solid 1px rgb(244, 78, 46);
+    padding-bottom: 2px;
+}
+
+.publishDate a span:hover {
+    border-bottom: solid 2px rgb(244, 78, 46); 
+}
+
+.recipeButtons {
+    min-width: 150px;
+    margin-top: 25px;
+    padding: 15px 0px 16px 0px;
+    margin-bottom: 50px;
+    background-color: #f5f6ea;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-family: Alegreyasans-bold; 
+}
+
+
+.recipeButtons img {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+
+.recipeSaveButton {
+    background-color: rgb(211, 28, 3);
+    padding: 19px 35px 19px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    border: none;        
+}    
+.recipeSaveButton span {
+    margin-left: 10px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.recipeSaveButton span:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+.recipeRatingButton {
+    padding: 19px 10px 19px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgba(0,0,0,.95);
+    border: none;   
+    @media (max-width:568px) { 
+        padding-left: 45px;
+    }    
+}    
+
+.recipeButtonsWrap {
+    @media (max-width:568px) { 
+        display: block;
+    }      
+}
+.recipeRatingButton span {
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.recipeRatingButton span:hover {
+    border-bottom: 1px solid rgb(244, 78, 46);
+}
+
+.recipeRatingButton span  img {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+
+.recipePrintButton {
+    padding: 19px 10px 19px 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgba(0,0,0,.95);
+    border: none;   
+}     
+.recipePrintButton span {
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.recipePrintButton span:hover {
+    border-bottom: 1px solid rgb(244, 78, 46);
+}
+.recipePrintButton img {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.recipeShareButton {
+    padding: 19px 10px 19px 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgba(0,0,0,.95);
+    border: none;    
+    @media (max-width:768px) { 
+        padding: 7px 10px 2px 0px;
+        margin-top: 25px;
+        margin-left: 25px;
+        display: inline-block;
+    }  
+    @media (max-width:568px) { 
+        margin-top: 25px;
+        margin-left: 25px;
+        display: inline-block;
+    }         
+}
+.recipeShareButton span {
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.recipeShareButton span:hover {
+    border-bottom: 1px solid rgb(244, 78, 46);
+}
+.recipeShareButton img {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.social {
+    @media (max-width:768px) { 
+        display: block;
+        margin-top: 30px;
+        margin-left: 25px;
+        @media (max-width:568px) { 
+            margin-left: 10px;
+            display: inline-block;
+        } 
+    } 
+}
+.social-icon-top6:hover path, .social-icon-top5:hover path, .social-icon:hover path, .social-icon-top1:hover path, .social-icon-top3:hover path, .social-icon-top2:hover path{
+    fill: red;
+ }
+ .social-icon {
+    position: relative;
+    top: 5px;
+ }
+ .social-icon-top1 {
+    position: relative;
+    top: 1px;
+ } 
+ .social-icon-top2 {
+    position: relative;
+    top: 2px;
+ }
+ .social-icon-top3 {
+    position: relative;
+    top: 3px;
+ }
+ .social-icon-top5 {
+    position: relative;
+    top: 5px;
+ }
+ .social-icon-top6 {
+    position: relative;
+    top: 6px;
+ }
+ .social-count {
+    display: inline-flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: visible;
+    width: 0;
+    margin-top: 3px;
+    font-size: 12px;
+ }
+
+ .ingredients {
+    width: 100%;
+    margin-top: 50px;    
+    background-color: #f5f6ea;
+    line-height: 28px;
+    font-family: Raleway-Medium;
+ }
+ .ingredients li {
+     margin-bottom: 15px;
+ }
+ .ingredients div {
+     padding: 30px;
+ }
+ .ingredients h2 {
+     margin-top: 0px;
+     font-size: 30px;
+     font-family: Alegreyasans-bold; 
+ }
+ .ingredients a {
+    color: rgba(0, 0, 0, 0.95);;
+ }
+ .cooking {
+    width: 100%;
+    line-height: 27px;
+    font-family: Raleway-Medium;
+ }
+ .cooking div {
+     padding: 30px 0px 0px 10px;
+ }
+ .cooking p {
+     padding: 0px;
+     margin: 0px;
+ }
+ .cooking h2 {
+     font-size: 30px;
+     padding-bottom: 10px;
+     font-family: Alegreyasans-bold; 
+ }
+ .cooking h3 {
+     font-size: 20px;
+     margin-top: 0px;
+     margin-bottom: 5px;
+     font-family: Alegreyasans-bold;  
+ }
+ .cooking img {
+     margin: 15px 0px 15px 0px;
+     width: 100%;
+ }
+
+ .reviewWrap {
+    border: 22px solid rgb(245, 246, 234);
+    margin-top: 30px;
+    padding: 0px 20px 30px 25px;
+ }
+ .reviewWrap img {
+    position: relative;
+    top: 15px;
+    padding-right: 10px;
+}
+.reviewWrap textarea {
+    width: 90%;
+    height: 100px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: 1px solid rgba(0,0,0,.3);
+    font-size: 16px;
+    letter-spacing: 0.01px;
+    @media (max-width:780px) { 
+        width: 85%;
+    } 
+}
+.review {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.review h2 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    font-family: Alegreyasans-bold;  
+}
+.review h3 {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 0px;
+    font-family: Alegreyasans-bold;   
+}
+.review h4 {
+    margin: 40px 0 0 0 ;
+}
+.review p {
+    padding-bottom: 10px;
+    font-family: Raleway-Medium;
+    font-size: 16px;
+}
+
+.reviewItem {
+    border-top: 1px solid rgba(0,0,0,.15);
+    padding: 0px 20px 20px 5px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+}
+
+.reviewItem p {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-family: Raleway-Medium;
+}
+
+.reviewItemWrap {
+    margin-top: 45px;
+}
+
+.registrationLink {
+    margin: 40px 0 0 0;
+}
+.registrationLink p {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: rgb(102, 102, 102);
+    font-family: Raleway-Medium;
+}
+.registrationLink a {
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+}
+.registrationLink span {        
+    cursor: pointer;
+    font-weight: bold;
+}
+.registrationLink span:hover {        
+    cursor: pointer;
+    padding-bottom: 1px; 
+    border-bottom: 1px solid rgb(244, 78, 46);
+}
+.accRegistrationLink {
+    margin: 40px auto 0 auto;
+}
+.accRegistrationLink p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: rgb(102, 102, 102);
+    font-family: Raleway-Medium;
+}
+.accRegistrationLink a {
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+}
+.accRegistrationLink span {        
+    cursor: pointer;
+    font-weight: bold;
+}
+.accRegistrationLink span:hover {        
+    cursor: pointer;
+    padding-bottom: 1px; 
+    border-bottom: 1px solid rgb(244, 78, 46);
+}
+
+.image-gallery-icon:hover {
+    color: rgb(254, 242, 238) !important;
+}
+.image-gallery-thumbnail:hover {
+    outline: none;
+    border: 4px solid rgba(0,0,0,.15) !important;
+}
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+    outline: none;
+    border: 4px solid rgba(0,0,0,.15) !important;
+}
+
+
+.addRecipeContent div {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0 0px 0;
+}
+
+.addRecipeContent span {
+    display: inline;
+}
+.addRecipeContent img {
+    width: 150px;
+    cursor: pointer;
+}
+.addRecipeContent input {
+    margin-bottom: 15px;
+}
+
+.addRecipeWrap div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.iconPlus div {
+    margin-right: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1.1em;
+    height: 1.1em;
+}
+.iconPlus div::before, .iconPlus div::after {
+    content: "";
+    position: absolute;
+    background: currentColor;
+}
+.iconPlus div::before {
+    width: 3.2px;
+    height: 100%;
+}      
+.iconPlus div::after {
+    width: 100%;
+    height: 3.2px;
+}
+
+
+.buttonTransparent button {
+    border: none;
+    margin-left: 10px;
+    padding: 20px 0px 2px 0px;
+    background: none;
+    font-size: 12px;
+    cursor: pointer;
+    color: #000 !important;
+    letter-spacing: 1px;
+    font-family: Raleway-Bold; 
+}
+.buttonTransparent button span:hover {
+    padding-top: 2px;
+    border-bottom: 2px solid rgb(244, 78, 46);
+}   
+.buttonTransparent button a {
+    color: #000;
+    text-decoration: none;
+}  
+
+.custom-checkbox {
+        z-index: -1;
+        opacity: 0;
+        margin: 0 0 15px -10px;
+        padding: 0;
+      }
+      .custom-checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+      }
+      .custom-checkbox+label::before {
+        content: '';
+        display: inline-block;
+        width: 0.9em;
+        height: 0.9em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 2px solid #adb5bd;
+        border-radius: 1em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 60% 60%;
+        margin-right: 15px
+      }
+      .custom-checkbox:checked+label::before {
+        border-color: rgb(244, 78, 46);
+        background-color: #fff;
+        background-image: url("/checkbox.png");
+      }
+        .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+        border-color: rgb(244, 78, 46);
+        }
+        .custom-checkbox:not(:disabled):active+label::before {
+        background-color: #fff;
+        border-color: rgb(244, 78, 46);
+        }
+        .custom-checkbox:focus+label::before {
+        box-shadow: 0 0 0 0.2rem #fcccbe;
+        }
+        .custom-checkbox:focus:not(:checked)+label::before {
+        border-color: rgb(244, 78, 46);
+        }
+        .custom-checkbox:disabled+label::before {
+        background-color: #e9ecef;
+        }
+
+
+    
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }    
+    .switch input {display:none;}    
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }    
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }    
+    input:checked + .slider {
+        background-color: rgb(244, 78, 46);
+    }
+    
+    input:focus + .slider {
+        box-shadow: 0 0 1px rgb(211, 28, 3);
+    }    
+    input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }    
+    .slider.round {
+        border-radius: 34px;
+    }    
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+  
+.buttonOrangeSm button {
+    border: 2px solid rgb(244, 78, 46);
+    border-radius: 4px;
+    padding: 8px 25px;
+    background: rgb(244, 78, 46);
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    color: #fff;
+    font-family: Raleway-Bold; 
+}
+.buttonOrangeSm button :hover {
+    border: 2px solid rgb(244, 78, 46);
+    background: #fff;
+    color: rgb(244, 78, 46);
+}   
+
+
+     
+
+
+
+
+
+
+
+
+
+
+                                   
+

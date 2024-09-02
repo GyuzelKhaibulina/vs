@@ -1,0 +1,927 @@
+.registrationLink div {
+    margin: 40px 0 0 0;
+}
+.registrationLink  p {
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: rgb(102, 102, 102);
+        font-family: Raleway-Medium; 
+}
+        
+.registrationLink  a {
+        color: rgb(102, 102, 102);
+        font-weight: bold;
+    }
+.registrationLink span {        
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .registrationLink  span:hover {        
+        cursor: pointer;
+        padding-bottom: 1px; 
+        border-bottom: 1px solid rgb(244, 78, 46);
+    }
+
+div.addRecipeWrap  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+}
+        
+button.buttonTransparent  {
+        border: none;
+        margin-left: 10px;
+        padding: 20px 0px 2px 0px;
+        background: none;
+        font-size: 12px;
+        cursor: pointer;
+        color: #000 !important;
+        letter-spacing: 1px;
+        font-family: Raleway-Bold; 
+}
+.buttonTransparent span:hover {
+    padding-top: 2px;
+    border-bottom: 2px solid rgb(244, 78, 46);
+}   
+.buttonTransparent a {
+    color: #000;
+    text-decoration: none;
+} 
+
+
+div.selectRecipe  {
+    margin: 2px 0 15px 0;
+}
+div.selectRecipe  select {
+        display: block; 
+        font-size: 16px; 
+        font-family: sans-serif; 
+        color: #444; 
+        line-height: 1.3; 
+        padding: 12px 30px; 
+        width: 50%; 
+        max-width: 100%; 
+        box-sizing: border-box; 
+        margin: 0; 
+        border: 1px solid #aaa;
+        box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #fff; 
+        background-image: url(''); 
+        background-repeat: no-repeat, repeat;
+        background-position: right .7em top 50%, 0 0;
+        background-size: .65em auto, 100%; 
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    div.selectRecipe  select::-ms-expand { display: none; } 
+    div.selectRecipe  select:hover { border-color: #888; } 
+    div.selectRecipe  select:focus { border-color: #aaa; 
+        box-shadow: 0 0 1px 3px #fcccbe;;
+        box-shadow: 0 0 0 3px -moz-mac-focusring; 
+        color: #222;
+        outline: none; 
+    }     
+
+
+label.switch  {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }    
+    label.switch  input {display:none;}    
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }    
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }    
+    input:checked + .slider {
+        background-color: rgb(244, 78, 46);
+    }
+    
+    input:focus + .slider {
+        box-shadow: 0 0 1px rgb(211, 28, 3);
+    }    
+    input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }    
+    .slider.round {
+        border-radius: 34px;
+    }    
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+button {
+    border: none;
+    background: none;
+}
+
+input#file {
+    visibility: hidden;
+    height: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+input#fileAdd {
+    visibility: hidden;
+    height: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.mainImg img {
+    max-width: 300px;
+}
+div.navAccount {
+    background-color: #fff;    
+}
+div.navAccountWrap {
+    background-color: #f2f2f2;  
+    min-height: 100vh;
+    width: 300px;
+    min-width: 300px;
+    @media (max-width:804px) { 
+        min-height: auto;
+        width: 200px;
+        min-width: 200px;
+    } 
+    @media (max-width:705px) { 
+        width: 150px;
+        min-width: 150px;
+        font-size: 12px;
+    } 
+}
+
+div.navTop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.15);    
+    text-align: center;
+    margin-bottom: 30px;
+    @media (max-width:716px) { 
+        justify-content: left;
+        
+    } 
+}
+
+div.navTopContent {
+    width: 75%;
+    display: flex;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    @media (max-width:1052px) { 
+        width: 96%;
+    } 
+}
+
+.navTopContent input {
+    border: none;
+}
+
+div.logoLink {
+    @media (max-width:716px) { 
+        width: 155px;
+        padding-right: 20px;
+        padding-left: 15px;
+    } 
+}
+
+.logoLink img {
+    position: relative;
+    width: 35px;
+    margin-right: 5px;
+    top: 6px;
+    @media (max-width:716px) { 
+        width: 25px;
+    } 
+}
+.logoLink a {
+    color: rgb(211, 28, 3);
+    font-size: 28px;
+    text-decoration: none;
+    font-family: Alegreyasans-bold;
+    @media (max-width:716px) { 
+        font-size: 18px;
+    } 
+}
+
+div.searchTopNav {
+    position: relative;
+    display: flex;       
+    margin-top: 5px; 
+}
+.searchTopNav input {
+    position: relative;
+    margin: 0px;
+    border: none;
+    padding: 10px 15px 15px 15px;
+    margin-right: 25px;
+}
+.searchTopNav input:focus, .searchTopNav input:active {
+    border: none !important; 
+    outline: none !important;    
+}
+.searchTopNav svg { 
+    cursor: pointer;
+}
+div.searchTopNavInput {
+    border: 1px solid rgb(118, 118, 118);
+}
+
+div.searchTopNavIcon {
+    position: absolute;
+    top: -6px;
+    right: 7px;
+    @media (max-width:1052px) { 
+        display: block;
+    } 
+}
+div.accountContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    flex-direction: row;
+    @media (max-width:1052px) { 
+        display: block;
+    } 
+}
+
+.accountContent a{
+    color: rgba(0, 0, 0, 0.95);
+}
+
+div.wrapAccountContent {
+    width: 75%;
+    display: flex;
+    justify-content: left;  
+    flex-direction: row;
+    gap: 10;
+    @media (max-width:1052px) { 
+        width: 100%;
+        gap: 10px 20px;
+
+    } 
+    @media (max-width:826px) { 
+
+    } 
+    
+}
+.wrapAccountContent input:-internal-autofill-selected {
+    background-color: #fff !important;
+}
+
+div.accountWrap {
+    padding-top: 120px;
+    background-color: #f2f2f2;  
+    min-height: 100vh;
+}
+
+div.account {
+    background-color: #fff;    
+}
+
+div.accNavHeader {
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.15);
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    justify-content: left;  
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Raleway-Medium; 
+    @media (max-width:705px) { 
+        padding: 5px;
+        line-height: 18px;
+        font-size: 14px;
+    } 
+    
+}
+.accNavHeader img {
+    padding-right: 15px;
+}
+.accNavHeader h3 {
+    font-size: 18px;
+}
+div.navAccountItem {    
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.15);
+}
+button.navAccountItem  {
+    padding: 18px 16px 16px 16px !important;
+    border: none;
+    background: none;
+    font-size: 15px;        
+    cursor: pointer;
+}
+.navAccountItem  a{
+    border: none;
+    background: none;
+    font-size: 15px;        
+    text-decoration: none !important;
+}
+.navAccountItem  a:hover{
+    color: rgb(244, 78, 46);
+}
+.navAccountItem button:hover {
+    color: rgb(244, 78, 46);
+}
+.navAccountItem button:focus, .navAccountItem button:link, .navAccountItem button:visited {
+    border-left: 3px solid rgb(244, 78, 46);
+    color: rgb(244, 78, 46);
+    font-weight: bold;
+}
+
+.navAccountItem button {
+    @media (max-width:705px) { 
+        text-align: left;
+    }
+}
+
+div.navRecipeItem {
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.15);
+}    
+.navRecipeItem button {
+    text-align: left;
+    width: 300px;
+    min-width: 300px;
+    margin-top: 20px;        
+    padding: 18px 16px 16px 16px;
+    border: none;
+    background: white;
+    font-size: 15px;        
+    cursor: pointer;
+    @media (max-width:804px) { 
+        min-height: auto;
+        width: 200px;
+        min-width: 200px;
+    } 
+    @media (max-width:705px) { 
+        width: 150px;
+        min-width: 150px;
+    } 
+}
+
+.accNavHeader img{
+    @media (max-width:804px) { 
+        padding-left: 0;
+        margin: 0;
+        width: 0px;
+    }
+}
+.navRecipeItem button:hover {
+    color: rgb(244, 78, 46);
+}
+.navRecipeItem button:focus, .navRecipeItem button:link, .navRecipeItem button:visited {
+    border-left: 3px solid rgb(244, 78, 46);
+    color: rgb(244, 78, 46);
+    font-weight: bold;
+}
+
+div.mainContent {
+    width: 100%;
+    margin: 0px 0px 0px 16px;
+    padding: 30px 0px 30px 0px;
+    background-color: #fff;  
+    @media (max-width:1052px) { 
+        width: 100%;
+        margin: 0px;
+    } 
+}
+.mainContent h1 {
+    margin: 0px;
+    padding: 0px 30px;
+    font-size: 44px;
+    font-family: Alegreyasans-bold;    
+    @media (max-width:829px) { 
+        font-size: 28px;
+    }     
+    @media (max-width:705px) { 
+        font-size: 20px;
+    } 
+}     
+.mainContent h2 {
+    font-size: 30px;
+    padding-bottom: 8px;
+    padding-top: 6px;
+    font-family: Alegreyasans-bold;      
+    @media (max-width:705px) { 
+        font-size: 20px;
+    } 
+} 
+.mainContent p { 
+    padding: 10px 30px 20px 30px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-family: Raleway-Medium; 
+    @media (max-width:705px) { 
+        font-size: 12px;
+        line-height:18px;
+    } 
+}    
+.mainContent label {
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    margin-bottom: 8px;
+    font-family: Alegreyasans-bold;  
+    @media (max-width:705px) { 
+        font-size: 14px;
+    } 
+}
+.mainContent input {
+    display: block;
+    width: 100%;
+    height: 44px;
+    border: 1px solid rgb(118, 118, 118);
+    margin-right: 20px;
+    border-radius: 0px;
+    font-size: 16px;
+    @media (max-width:705px) { 
+        height: 26px;
+    } 
+}
+.mainContent input ::placeholder {
+    padding: 10px 15px;
+    font-size: 16px;
+}  
+
+div.navAccountItem {    
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.15);
+}    
+.navAccountItem button {
+    padding: 18px 16px 16px 16px;
+    border: none;
+    background: none;
+    font-size: 15px;        
+    cursor: pointer;
+}
+.navAccountItem button:hover {
+    color: rgb(244, 78, 46);
+}
+.navAccountItem button:focus, .navAccountItem button:link, .navAccountItem button:visited {
+    border-left: 3px solid rgb(244, 78, 46);
+    color: rgb(244, 78, 46);
+    font-weight: bold;
+}
+
+div.saveButton {
+    padding-top: 0px; 
+    padding-right: 30px;
+}
+.saveButton button {
+    background-color: rgb(244, 78, 46);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    font-family: Alegreyasans-bold;  
+}
+.saveButton button:disabled {
+    background-color: #d9d9d9;
+}
+div.profileTwoCol {
+    display: flex;
+    justify-content: space-between;    
+}
+div.saveButton {
+    padding-top: 0px; 
+    padding-right: 30px;
+}
+.saveButton button {
+    background-color: rgb(244, 78, 46);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    font-family: Alegreyasans-bold; 
+    @media (max-width:705px) { 
+        font-size: 12px;
+        padding: 10px 10px;
+    } 
+}
+.saveButton button:disabled {
+    background-color: #d9d9d9;
+}
+div.accountBaseInfo {
+    padding: 0px 30px 40px 25px;
+    margin: 30px 30px 0px 30px;
+    border: 1px solid #b2b2b2;
+    @media (max-width:705px) { 
+        padding: 0px 0px 10px 20px;
+        margin: 10px;
+        font-size: 14px;
+    } 
+}
+.accountBaseInfo input {
+    padding-left: 15px;
+    @media (max-width:705px) { 
+        width: 90%;
+        font-size: 12px;
+        padding: 5px;
+    } 
+}
+div.baseInfoTwoCol {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;  
+    flex-direction: row;
+    @media (max-width:1324px) { 
+        display: block;
+    } 
+}
+div.baseInfoTwoCol div {        
+    width: 48%;
+    @media (max-width:1324px) { 
+        margin-top: 20px;
+        width: 100%;
+    } 
+}
+div.mainInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.baseInfoDate {
+    margin-top: 40px;
+}
+div.birthDate {  
+    display: flex;
+    width: 100%;
+}    
+.birthDate input {
+    width: 74% !important;
+    padding: 0px 10px;
+}
+.birthDate input:-internal-autofill-selected {
+    background-color: #fff !important;
+}
+div.accountTopInfo {
+    width: 100% !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+div.accountResetPassword {
+    width: 100% !important;
+}
+div.publicTwoCol {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}    
+.publicTwoCol input {
+    width : 100%;
+    @media (max-width:705px) {         
+        width : 92%;
+    } 
+    @media (max-width:600px) {         
+        width : 93%;
+    } 
+}
+.flex-item {
+    -webkit-flex: auto;
+    flex: auto;
+}
+div.publicAvatar img {
+    width: 150px;
+    border: 1px solid rgb(118, 118, 118);
+    margin-bottom: 15px;
+}  
+div.publicAvatar h3 {
+    padding: 0px;
+    margin: 0px 0px 12px 0px;
+    font-size: 14px;
+}
+div.profileTwoColImg {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;    
+    flex-direction: row;
+    @media (max-width:705px) {         
+        gap: 10px;
+    } 
+} 
+div.profileImg {
+    padding: 0px 0px 30px 0px  !important;
+    margin-bottom: 30px;
+}    
+.profileImg p {
+    padding: 30px 0px 30px 0px !important;
+    margin: 0px !important;
+}
+.profileImg h3 {
+    font-size: 14px;
+    @media (max-width:705px) {         
+        font-size: 12px;
+    } 
+}
+div.avatarImgDefault {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    flex-direction: column;
+    background-color: rgba(0,0,0,.05);
+    padding-top: 50px;
+    margin-bottom: 22px !important;
+    width: 250px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Alegreyasans-bold; 
+}    
+.avatarImgDefault p {
+    padding-bottom: 60px !important;
+}   
+.avatarImg img {
+    width: 128px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(118, 118, 118);
+    @media (max-width:705px) {  
+        margin-bottom: 5px;       
+        width: 76px;
+    } 
+} 
+.buttonWhite span {
+    border: 2px solid rgb(244, 78, 46);
+    border-radius: 4px;
+    padding: 16px 26px;
+    background: #fff;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    color: #030303;
+    font-family: Raleway-Bold;  
+    @media (max-width:705px) {  
+        padding: 5px 5px;       
+        width: 110px;
+        font-size: 10px;
+    } 
+}
+.buttonWhite  span:hover {
+    border: 2px solid rgb(244, 78, 46);
+    background: rgb(244, 78, 46);
+    color: #fff;
+}   
+div.socialProfile {
+    margin-top: 16px;
+    width: 100%;
+    @media (max-width:705px) {  
+        padding: 9px 0px;       
+    }
+}    
+.socialProfile input {
+    margin-bottom: 30px;
+}
+div.accountResetPassword {
+    width: 100% !important;
+}
+.resetPasswButton button{
+    margin: 30px 25px 0px 30px;
+    padding: 18px 30px;
+    border: 2px solid rgb(244, 78, 46);
+    background: rgb(244, 78, 46);
+    border-radius: 4px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    color: #fff;
+    width: auto;
+    font-family: Raleway-Bold;  
+    @media (max-width:705px) { 
+        font-size: 12px;
+        padding: 10px 10px;
+    } 
+}    
+.resetPasswButton button:hover {
+    border: 2px solid #be2102;
+    background: #be2102;
+}  
+
+div.accountSaved {
+    width: 100%;
+    display: flex;
+    justify-content: space-start;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}    
+div.accountSaved div {
+    margin: 0px 20px 10px 0px;
+    width: 28%;
+    @media (max-width:728px) { 
+        width:42%;
+    }
+}
+.accountSaved a {
+    display: block;
+    min-height: 60px;
+    color: rgb(3, 3, 3);
+    padding-bottom: 5px;
+    text-decoration: none;
+    margin: 15px 0px 0px 0px;
+    max-width: 180px;
+}
+.accountSaved a:hover {
+    color: rgb(244, 78, 46);
+}
+.accountSaved img {
+    display: block;
+    max-height: 160px;
+}
+div.saveControl {
+    position: relative;
+    width: 100% !important;
+}    
+.saveControl img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.saveControl button {
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 5px;
+}
+.selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}      
+.selector + .selector {
+    margin-left: 0px;
+}      
+.selector[aria-pressed=true] {
+    opacity: 1;
+}      
+.selector[aria-pressed=true] svg {
+    fill: white;
+}     
+.selector[aria-pressed=false] svg {
+    fill: rgb(244, 78, 46);
+}   
+.buttonWhiteSm button {
+    border: 2px solid rgb(244, 78, 46);
+    border-radius: 4px;
+    padding: 8px 25px;
+    background: #fff;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    color: #030303;
+    font-family: Raleway-Bold;  
+}        
+.buttonWhiteSm button:hover {
+    border: 2px solid rgb(244, 78, 46);
+    background: rgb(244, 78, 46);
+    color: #fff;
+}   
+div.addRecipe {
+    width: 20%;    
+    text-align: right;
+    padding-top: 15px;
+    font-size: 12px;
+    @media (max-width:1028px) { 
+        width: 30%;  
+    } 
+}    
+.addRecipe span {
+    display: inline-block;
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    @media (max-width:600px) { 
+        padding-left: 10px;
+        border-left: none;
+        padding-top: 0px;
+    } 
+}
+.addRecipe a {
+    padding-bottom: 3px;
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-family: Raleway-Medium; 
+    @media (max-width:600px) { 
+        font-size: 10px;
+    } 
+}
+.addRecipe a:hover {        
+    border-bottom: 1px solid rgb(244, 78, 46);
+}
+div.accRegistrationLink {
+    margin: 40px auto 0 auto;
+}    
+.accRegistrationLink p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: rgb(102, 102, 102);
+    font-family: Raleway-Medium; 
+}
+.accRegistrationLink a {
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+}
+.accRegistrationLink span {        
+    cursor: pointer;
+    font-weight: bold;
+}
+.accRegistrationLink span:hover {        
+    cursor: pointer;
+    padding-bottom: 1px; 
+    border-bottom: 1px solid rgb(244, 78, 46);
+}
+span.stars {
+    position: relative;
+    font-size: 10px;
+    top: -6px;
+}
+
+.searchNavIcon {
+    margin-top: 3px;
+    margin-right: 10px;
+    @media (max-width:876px) { 
+        position: absolute;
+        left: 190px;
+    } 
+    @media (max-width:656px) { 
+        left: 190px;
+    } 
+}
+.headMenu {
+    font-size: 14px;
+    padding: 5px 0 0 0;
+    word-break: break-all;
+    
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

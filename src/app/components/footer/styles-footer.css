@@ -1,0 +1,194 @@
+.footerWrapper {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+    padding-left: 20px;
+    font-size: 13px;  
+    color: #030303;
+    @media (max-width:1400px) { 
+        width: 90%;
+    }
+}
+
+
+.footerMain {
+    margin-top: 60px;
+    background: rgba(0,0,0,.05);
+    border-top: 1px solid rgba(0,0,0,.15);
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.leftFooter {
+    width: 35%;
+    padding-top: 36px;
+
+
+
+}
+
+.leftFooter a {
+    display: inline-block;
+    padding-left: 10px;            
+    top: -10px;
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 0.02px;
+    color: rgb(211, 28, 3);
+    text-decoration: none;            
+    font-family: "Alegreyasans-bold";
+    @media (max-width:1280px) { 
+        font-size: 26px;
+    };
+    @media (max-width:800px) {
+        font-size: 18px;
+    }
+}
+
+.leftFooter img {
+    position: relative;
+    top: -5px;
+    @media (max-width:1280px) { 
+        width: 50px;
+        height: auto;
+    };
+    @media (max-width:800px) {    
+        top: -5px;    
+        height:auto;
+        width: 30px
+    }
+}
+
+
+.centerFooter {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    width: 35%;
+    font-family: "Raleway-Bold";   
+    @media (max-width:1280px) { 
+        padding-top: 70px;
+    }
+
+    @media (max-width:1024px) { 
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    @media (max-width:800px) {
+        padding-top: 48px;
+        padding-left: 18px; 
+    }
+}
+
+.centerFooter a {
+    color: #030303;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 22px;
+}
+
+.centerFooter a span {
+    padding-bottom: 1px;
+}
+
+.centerFooter a:hover span {
+    border-bottom: solid 1px rgb(244, 78, 46);
+}
+
+.rightFooter {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    width: 35%;
+    @media (max-width:1280px) { 
+        padding-top: 70px;
+    }
+
+    @media (max-width:646px) {
+        padding-top: 48px;
+        padding-left: 10px; 
+    }
+}
+
+.rightFooter a {
+    margin-bottom: 22px;
+    display: block;
+    font-size: 12px;
+    color: #030303;
+    text-decoration: none;
+}
+
+.rightFooter button {
+    padding: 0;
+    display: block;
+    font-size: 12px;
+    color: #030303;
+}
+
+.rightFooter button:hover span {
+    cursor: pointer;
+    border-bottom: solid 1px rgb(244, 78, 46);
+}
+
+.rightFooter a span {
+    padding-bottom: 1px;
+}
+
+.rightFooter a:hover span {
+    border-bottom: solid 1px rgb(244, 78, 46);
+}
+
+.formParam label  {
+        display: block;
+        font-family: 'Alegreyasans-bold';
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 3px;
+    };
+    input#user_name {
+        display: block;  
+        border-radius: 2px !important; 
+        width: 100%;
+        height: 30px;
+        border: 1px solid rgb(118, 118, 118);     
+        margin-bottom: 2px !important;
+    }
+    div.formParam input {
+        display: block;  
+        border-radius: 2px !important; 
+        width: 98%;
+        height: 30px;
+        border: 1px solid rgb(118, 118, 118);     
+        margin-bottom: 2px !important;
+    };
+
+    textarea#message {        
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: block;
+        border-radius: 2px !important;
+        height: 150px;
+        border: 1px solid rgb(118, 118, 118);    
+    }
+    div.formParam textarea {
+        display: block;  
+        border-radius: 2px !important; 
+        width: 98%;
+        height: 150px;
+        border: 1px solid rgb(118, 118, 118);     
+        margin-bottom: 2px !important;
+    };
+    .formParam span{
+        display: block;
+        padding-top: 4px;
+        font-size: 12px;
+        color: rgb(244, 78, 46);
+    }
+
+
+
+
+
+
+
