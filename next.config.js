@@ -16,7 +16,7 @@ const nextConfig = {
         'MYSQL_USER': 'root',
         'MYSQL_PASSWORD': 'password',
         'PATH_API': 'http://localhost:3000/api/',
-        'URL': 'http://localhost:3000',
+        'URL': 'http://localhost:3001',
         'OUTLOOK_HOST':'smtp-mail.outlook.com',
         'OUTLOOK_USER':'vsrecepti@outlook.com',
         'OUTLOOK_PASSW': 'Gniv188Ehuy', 
@@ -28,8 +28,8 @@ const nextConfig = {
         'NEXTAUTH_URL': 'http://localhost:3000',
         'UPLOADTHING_SECRET': 'sk_live_014147a72ed47e0b09f8d6d104f2b18fecc497cdb8e056b5fda7fee7cfbac8bf',
         'UPLOADTHING_APP_ID': 'q3osmntofx',
-        'SMTP_PORT_TLS': 587,
-        'SMTP_PORT_SSL': 465,
+        'SMTP_PORT_TLS': '587',
+        'SMTP_PORT_SSL': '465',
     },
 }
 
