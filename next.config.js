@@ -1,14 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-            {
-                protocol: "https",
-                hostname: "utfs.io"
-            }
 
-        ]
-    },
+     images: {
+         remotePatterns: [
+             {
+                 protocol: "https",
+                 hostname: "utfs.io"
+             }
+         ]
+     },
     env: {
         'MYSQL_HOST': 'localhost',
         'MYSQL_PORT': '3306',
@@ -16,7 +16,7 @@ const nextConfig = {
         'MYSQL_USER': 'root',
         'MYSQL_PASSWORD': 'password',
         'PATH_API': 'http://localhost:3000/api/',
-         'URL': 'http://localhost:3000',
+        'URL': 'http://localhost:3000',
         'OUTLOOK_HOST':'smtp-mail.outlook.com',
         'OUTLOOK_USER':'vsrecepti@outlook.com',
         'OUTLOOK_PASSW': 'Gniv188Ehuy', 

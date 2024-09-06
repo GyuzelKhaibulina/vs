@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+"use client"
+import { useEffect} from 'react';
 
 export default function Meta ({title, description, keywords, robots}) {
     useEffect(() =>     
